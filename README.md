@@ -34,6 +34,8 @@ Tierarzt - Mattis
 
 Rettungsdienst - Patrick
 
+Apotheke - David
+
 ### Zentrale Themen
 
 Kafka - Philipp, Malte
