@@ -19,7 +19,7 @@ Die Schnittstellen müssen im Pflichtenheft vollständig definiert werden, sodas
 mit diesen kommunizieren können.
 
 Datenobjekte sollten als JSON wie im folgenden Beispiel definiert werden:
-
+```json
    "sgse.models.einwohnermeldeamt.user": {
       "description": "Represents a user for the einwohnermeldeamt",
       "fields": [
@@ -28,3 +28,4 @@ Datenobjekte sollten als JSON wie im folgenden Beispiel definiert werden:
         { "name": "lastName", "type": "string", "required": true }
       ]
     }
+```
