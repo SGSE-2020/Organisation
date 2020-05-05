@@ -41,7 +41,7 @@ Apotheke - David
 
 ### Zentrale Themen
 
-Kafka - Philipp, Malte
+RabbitMQ - Philipp, Malte, Sven
 
 Authentifizierung - Pia, Benedikt
 
