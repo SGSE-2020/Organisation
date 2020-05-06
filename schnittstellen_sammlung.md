@@ -27,14 +27,6 @@
 -   Rettungsdienst: Bürger für tot erklären
     
 
-## Öffentlicher Nahverkehr (ÖPNV) - Alexander
-
-### Message Queues:
-
-### Bietet an:
-
-### Wird angefordert:
-
 ## Parkplatz - Sven
 
 ### Message Queues:
