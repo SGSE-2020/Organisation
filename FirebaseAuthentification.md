@@ -10,9 +10,7 @@ Es gibt zwei Versionen für Firebase. Einmal das Admin SDK, welches nur zum Nutz
 
 ## Authentifizierungsdiagramm
 
-Wird hier noch eingefügt...
-
-
+![Auth](./img/firebase_auth.svg)
 
 ## Initialisierung
 
