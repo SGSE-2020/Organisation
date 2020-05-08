@@ -167,6 +167,8 @@
 ## Ordnungsamt - Philipp
 
 ### Message Queues:
+-   Genehmigungen
+-   Ordnungswidrigkeiten
 
 ### Bietet an:
 
