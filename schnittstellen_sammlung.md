@@ -4,28 +4,24 @@
 
 ### Message Queues:
 
--   Bürger umgezogen (Adresse hat sich geändert)
-    
--   Namensänderung (Vor oder Nachname hat sich geändert)
-    
--   Neuer Fundgegenstand abgegeben
-    
+-   Bürgerdaten haben sich geändert
+-   Nutzerkonto wurde deaktiviert (Weggezogen oder für tot erklärt)
 
 ### Bietet an:
 
--   Gibt Userdaten raus (Benötigt UserID)
-    
--   Nimmt Anhänge fürs schwarze Brett entgegen
-    
+-   Gibt Userdaten raus (Benötigt UserID)  
+-   Nimmt Anhänge fürs schwarze Brett entgegen  
 -   Verifiziert User Token und gibt userid zurück
+-   Löscht Anhänge vom schwarzen Brett
     
 
 ### Wird angefordert:
 
 -   Alle Services - Benutzerdaten (Name, Nachname) abfragen
-    
 -   Rettungsdienst: Bürger für tot erklären
     
+
+
 
 ## Parkplatz - Sven
 
