@@ -112,8 +112,8 @@
 -   Entgegennahme von Überweisungen
     
 -   Vereinbaren von Terminen
-    
--   Teilnahme an Veranstaltungen
+
+-   Abrufen von Patientendaten
     
 
 ### Wird angefordert:
