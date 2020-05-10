@@ -78,8 +78,6 @@
     
 
 ### Wird angefordert:
-
--   Restaurants: Terminüberschneidung überprüfen
     
 -   Krankenhaus: Überweisung entgegennehmen
     
