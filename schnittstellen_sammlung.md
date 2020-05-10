@@ -248,7 +248,7 @@
 
 ### Wird angefordert:
 
--   Krankenhaus: Patientendaten abrufen
+-   Krankenhaus: Einsatzbericht abrufen
     
 -   Ordnungsamt: Psychisch Krankentransport
     
