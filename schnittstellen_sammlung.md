@@ -78,7 +78,7 @@
     
 
 ### Wird angefordert:
-    
+
 -   Krankenhaus: Überweisung entgegennehmen
     
 -   Krankenhaus, Rettungsdienst: Krankenakte abrufen
@@ -146,6 +146,8 @@
 
 ### Message Queues:
 
+* Neues Gerät
+
 ### Bietet an:
 
 -   Trainingsplan beantragen
@@ -155,7 +157,7 @@
 
 ### Wird angefordert:
 
--   Hausarzt: Info, ob UserID den Fitness Plan gemacht hat
+-   Hausarzt: Termin beim Physiotherapeut
     
 
 ## Ordnungsamt - Philipp
