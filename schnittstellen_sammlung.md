@@ -20,38 +20,26 @@
 -   Alle Services - Benutzerdaten (Name, Nachname) abfragen
 -   Rettungsdienst: Bürger für tot erklären
     
-
-
-
+    
 ## Parkplatz - Sven
 
 ### Message Queues:
+- Parkplatz reserviert
+- Reservierung storniert
 
 ### Bietet an:
-
--   Parkplatz reservieren
+- Parkplatz reservieren
+- Auslastung abfragen
+- Parkfläche bereitstellen
+- Parkfläche bearbeiten
+- Parkfläche löschen
     
--   Auslastung abfragen
-    
--   Parkfläche bereitstellen
-    
--   Parkfläche bearbeiten
-    
--   Parkfläche löschen
-    
-
-### Wird angefordert (grün = “alles ok/wird gemacht”, rot = “nicht ok/nicht vorgesehen”):
-
--   Restaurants - Parkplatzauslastung abfragen
-    
--   Hausarzt - Parkplatz reservieren
-    
--   Krankenhaus - Parkplatz reservieren
-    
--   Ordnungsamt - Falschparker/Ordnungswidrigkeiten melden
-    
--   Straßenverkehrsamt - Parkplatz reservieren
-    
+### Wird angefordert:
+- Restaurants - Parkplatzauslastung abfragen
+- Hausarzt - Parkplatz reservieren
+- Krankenhaus - Parkplatz reservieren
+- Ordnungsamt - Falschparker/Ordnungswidrigkeiten melden
+- Straßenverkehrsamt - Parkplatz reservieren
 
 ## Straßenverkehrsamt - Benedikt
 
