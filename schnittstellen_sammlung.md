@@ -92,6 +92,8 @@
 
 ### Message Queues:
 
+- Neues Restaurant wurde erstellt
+
 ### Bietet an:
 
 -   Terminüberschneidung von Benutzer überprüfen
