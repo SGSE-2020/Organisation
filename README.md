@@ -37,8 +37,6 @@ Tierarzt - Mattis
 
 Rettungsdienst - Patrick
 
-Apotheke - David
-
 ### Zentrale Themen
 
 RabbitMQ - Philipp, Malte, Sven
