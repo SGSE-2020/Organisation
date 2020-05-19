@@ -31,6 +31,15 @@
 | RAM     | 4 GB       | 8 GB       | 2 GB       |
 | Storage | 4 GB       | 10 GB      | 20 GB      |
 
+### MS_Parkplatz
+
+|         | Frontend       | Backend        | Datenbank      | Cache                |
+| ------- | -------------- | -------------- | -------------- | -------------------- |
+| Image   | `node:latest`  | `nginx:alpine` | `mysql:8.0.20` | `redis:6.0.1-alpine` | 
+| CPU     | 1 Core         | 1 Core         |  1 Core        |  2 Cores             |
+| RAM     | 1 GB           | 1 GB           |  2 GB          |  4 GB                |
+| Storage | No Persistence | No Persistence | 10 GB          | 10 GB                |
+
 ### MS_ÖPNV
 
 |         | Frontend       | Backend         | Datenbank           |
