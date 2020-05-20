@@ -49,3 +49,11 @@
 | RAM     | 4 GB           | 2 GB            | 2 GB                |
 | Storage | 5 GB           | 5 GB            | 5 GB                |
 
+### Message Broker
+
+|         | Broker                  | 
+| ------- | ----------------------- |
+| Image   | `rabbitmq:3-management` |
+| CPU     | 2 Core                  |
+| RAM     | 14 GB                   |
+| Storage | 10 GB                   |
