@@ -49,11 +49,20 @@
 | RAM     | 4 GB           | 2 GB            | 2 GB                |
 | Storage | 5 GB           | 5 GB            | 5 GB                |
 
+### MS_Ordnungsamt
+
+|         | Frontend       | Backend        | Datenbank       |
+| ------- | -------------- | -------------- | --------------- |
+| Image   | `nginx:alpine` | `node:latest`  | `mongodb:latest`|
+| CPU     | 1 Core         | 1 Core         |  1 Core         |
+| RAM     | 1 GB           | 1 GB           |  2 GB           |
+| Storage | No Persistence | No Persistence |  5 GB           |
+
 ### Message Broker
 
 |         | Broker                  | 
 | ------- | ----------------------- |
 | Image   | `rabbitmq:3-management` |
-| CPU     | 2 Core                  |
-| RAM     | 14 GB                   |
+| CPU     |  2 Core                 |
+| RAM     |  4 GB                   |
 | Storage | 10 GB                   |
