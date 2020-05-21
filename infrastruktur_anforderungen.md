@@ -58,6 +58,15 @@
 | RAM     | 1 GB           | 1 GB           |  2 GB           |
 | Storage | No Persistence | No Persistence |  5 GB           |
 
+### MS_Buergerbuero
+
+|         | Frontend       | Backend        | Datenbank       |
+| ------- | -------------- | -------------- | --------------- |
+| Image   | `nginx:alpine` | `node:latest`  | `postgres:latest`|
+| CPU     | 1 Core         | 1 Core         |  1 Core         |
+| RAM     | 1 GB           | 1 GB           |  2 GB           |
+| Storage | No Persistence | No Persistence |  5 GB           |
+
 ### Message Broker
 
 |         | Broker                  | 
