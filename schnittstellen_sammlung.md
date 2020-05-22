@@ -206,6 +206,10 @@
 
 ### Message Queues:
 
+-   Termin wurde angelegt
+
+-	Termin wurde abgesagt
+
 ### Bietet an:
 
 -   Tierarzt Termine anzeigen
