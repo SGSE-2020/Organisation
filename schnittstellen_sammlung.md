@@ -33,7 +33,7 @@
 - Parkfläche bereitstellen
 - Parkfläche bearbeiten
 - Parkfläche löschen
-    
+  
 ### Wird angefordert:
 - Restaurants - Parkplatzauslastung abfragen
 - Hausarzt - Parkplatz reservieren
@@ -177,6 +177,9 @@
 ## Bank - Fabian
 
 ### Message Queues:
+
+* Überweisungsnachricht
+* Beraterverfügbarkeit
 
 ### Bietet an:
 
