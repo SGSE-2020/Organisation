@@ -58,6 +58,8 @@
 
 ### Message Queues:
 
+-   Terminbestätigung
+
 ### Bietet an:
 
 -   Überweisungen von Patienten an Krankenhaus/Fitnesscenter
