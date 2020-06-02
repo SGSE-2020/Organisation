@@ -21,5 +21,6 @@ spec:
         name: ms-MSSERVICE-backend
         ports:
         - containerPort: 8080
+        - containerPort: 50051
       restartPolicy: Always
 status: {}
