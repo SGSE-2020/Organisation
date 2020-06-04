@@ -5,6 +5,7 @@ metadata:
     app: ms-MSSERVICE
   name: ms-MSSERVICE
 spec:
+  type: NodePort
   ports:
   - name: "80"
     port: 80
