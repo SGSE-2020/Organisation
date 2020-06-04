@@ -26,7 +26,7 @@ env:
   IMAGE_frontend: ms-MSSERVICE-frontend
   IMAGE_backend: ms-MSSERVICE-backend
   REGISTRY_HOSTNAME: gcr.io
-  DEPLOYMENT_NAME: ms-MSSERVICE-frontend
+  DEPLOYMENT_NAME: ms-MSSERVICE
 
 jobs:
   setup-build-publish-deploy:
