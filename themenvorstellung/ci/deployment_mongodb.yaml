@@ -1,0 +1,36 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    app: ms-MSSERVICE
+  name: ms-MSSERVICE
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: ms-MSSERVICE
+    spec:
+      containers:
+      - image: ms-MSSERVICE-frontend
+        name: ms-MSSERVICE-frontend
+        ports:
+        - containerPort: 80
+      - image: ms-MSSERVICE-backend
+        name: ms-MSSERVICE-backend
+        ports:
+        - containerPort: 8080
+        - containerPort: 50051
+      - image: mongo
+        name: ms-MSSERVICE-db
+        volumeMounts:
+          - mountPath: /data/db
+            name: db
+      restartPolicy: Always
+      volumes:
+        - name: db
+          gcePersistentDisk:
+            pdName: ms-MSSERVICE
+            fsType: ext4
+status: {}
