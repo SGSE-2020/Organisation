@@ -85,6 +85,19 @@ class: center, middle
 ---
 ## Bank
 
+### Allgemein
+- Konto erstellen
+- Genereller Umgang mit Geld
+
+### Features
+- Kontenverwaltung(Erstellen und Löschen)
+- Kontenüberblick(Alle Transaktionen)
+- Überweisungen von Konto A nach Konto B
+
+---
+
+## Bank
+.center[<img src="img/Systemarchitektur_bank.png" width="95%">]
 ---
 class: center, middle
 
@@ -94,6 +107,19 @@ class: center, middle
 
 ---
 ## Parkplatz
+### Allgemein
+- Parkplatzreservierung
+- Für Bürger und Services
+
+### Features
+- Reservierungen erstellen und stornieren
+- Buchungs- und Reservierungsübersicht
+- Melden von Problemen für Reservierungen
+
+---
+## Parkplatz
+.center[<img src="img/aufbau_parkplatz.png" width="55%">]
+
 ---
 ## Ordnungsamt
 ---
@@ -101,12 +127,42 @@ class: center, middle
 
 # Tierattacke
 ---
-## Supermarkt
+##  Hausarzt
 ---
 ## Tierarzt
 
+### Allgemein
+- Verwalten von Haustieren und Tierarztterminen
+
+### Features
+- Tierdaten anlegen, bearbeiten, löschen
+- Termin Übersicht
+- Termine anfragen
+- Terminanfragen beantworten
+- Benachrichtigungen abrufen, löschen
+- Tierarztkosten bezahlen
+
 ---
-##  Hausarzt
+## Supermarkt
+### Allgemein
+- Service um Produkte aller Art Online zu kaufen
+
+### Features
+- Produkte suchen und kaufen
+- Automatisches Abbuchen der Kosten in der Bank
+- Produkte bewerten
+- Bestellungen verfolgen
+- Treuepunkte sammeln und einlösen
+- Mitarbeiter können Artikel bearbeiten und neue Artikel erstellen
+- Mitarbeiter könnden den Lagerbestand anpassen
+- Mitarbeiter können Bestellungen einsehen und bearbeiten
+
+
+---
+.center[<img src="img/supermarkt_sa.png" width="80%">]
+---
+## Supermarkt GRPC
+.center[<img src="img/grpc_in_scala.png">]
 ---
 class: center, middle
 # Sport ist Mord
@@ -141,6 +197,28 @@ class: middle, center
 # Zentrale Themen
 ---
 ## Kubernetes
+
+- Kubernetes Cluster über Google Kubernetes Engine
+- Jeder Microservice besteht aus einem Pod und einem Service
+- In einem Pod laufen in der Regel 3 Container (Frontend, Backend, Datenbank)
+- 8 verwendete Nodes
+    - Zweimal mussten die Nodes aufgestockt werden
+
+- Zusätzliche Pods:
+    - ms-proxy, ms-rabbitmq, ms-zentralesportal
+
+.center[<img src="img/gcp_console.png" width="80%">]
+
+---
+## Kubernetes - Clusteraufbau
+
+.center[<img src="img/KubeCluster.png" width="95%">]
+
+---
+## Kubernetes - Deployment
+
+.center[<img src="img/kubernetes_deployment.png" width="100%">]
+
 ---
 ## CI/ CD - Github Actions
  - neue CI Lösung
@@ -214,12 +292,6 @@ class: middle, center
 # Microservice
 ---
 
-## Supermarkt
-.center[<img src="img/supermarkt_sa.png" width="80%">]
----
-## Supermarkt GRPC
-.center[<img src="img/grpc_in_scala.png">]
----
 ## Krankenhaus
 .center[<img src="img/krankenhaus_sa.png" width="80%">]
 ---
@@ -256,6 +328,7 @@ class: middle, center
 - MongoDB
 - MySQL
 - PostgreSQL
+- CouchBase
 - Redis
 
 ---
