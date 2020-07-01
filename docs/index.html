@@ -63,9 +63,8 @@ class: center, middle
 ---
 class: center, middle
 
-# Neues Stadt, neues Glück
----
 # Neue Stadt, neues Glück
+---
 ## Bürgerbüro
 
 ### Allgemein
@@ -78,40 +77,58 @@ class: center, middle
 - Mitarbeiter Bereich (Aushänge freischalten)
 - Admin Bereich (Mitarbeiter einstellen und entlassen)
 ---
-# Neue Stadt, neues Glück
 ## Bürgerbüro
-.center[<img src="img/SWArchitecture_Buergerbuero.svg" width="80%">]
+.center[<img src="img/SWArchitecture_Buergerbuero.svg" width="95%">]
 ---
-# Neue Stadt, neues Glück
 ## Straßenverkehrsamt
 
 ---
-# Neue Stadt, neues Glück
 ## Bank
 
+### Allgemein
+- Konto erstellen
+- Genereller Umgang mit Geld
+
+### Features
+- Kontenverwaltung(Erstellen und Löschen)
+- Kontenüberblick(Alle Transaktionen)
+- Überweisungen von Konto A nach Konto B
+
+---
+
+## Bank
+.center[<img src="img/Systemarchitektur_bank.png" width="95%">]
 ---
 class: center, middle
 
 # Romantischer Abend
 ---
-# Romantischer Abend
 ## Restaurant
 
 ---
-# Romantischer Abend
 ## Parkplatz
+### Allgemein
+- Parkplatzreservierung
+- Für Bürger und Services
+
+### Features
+- Reservierungen erstellen und stornieren
+- Buchungs- und Reservierungsübersicht
+- Melden von Problemen für Reservierungen
+
 ---
-# Romantischer Abend
+## Parkplatz
+.center[<img src="img/aufbau_parkplatz.png" width="55%">]
+
+---
 ## Ordnungsamt
 ---
 class: center, middle
 
 # Tierattacke
 ---
-# Tierattacke
 ##  Hausarzt
 ---
-# Tierattacke
 ## Tierarzt
 
 ### Allgemein
@@ -126,20 +143,33 @@ class: center, middle
 - Tierarztkosten bezahlen
 
 ---
-# Tierattacke
-## Tierarzt
----
-# Tierattacke
 ## Supermarkt
+### Allgemein
+- Service um Produkte aller Art Online zu kaufen
+
+### Features
+- Produkte suchen und kaufen
+- Automatisches Abbuchen der Kosten in der Bank
+- Produkte bewerten
+- Bestellungen verfolgen
+- Treuepunkte sammeln und einlösen
+- Mitarbeiter können Artikel bearbeiten und neue Artikel erstellen
+- Mitarbeiter könnden den Lagerbestand anpassen
+- Mitarbeiter können Bestellungen einsehen und bearbeiten
+
+
+---
+.center[<img src="img/supermarkt_sa.png" width="80%">]
+---
+## Supermarkt GRPC
+.center[<img src="img/grpc_in_scala.png">]
 ---
 class: center, middle
 # Sport ist Mord
 ---
-# Sport ist Mord
 ## Fitnessstudio
 
 ---
-# Sport ist Mord
 ## Rettungsdienst
 
 ### Allgemein
@@ -151,25 +181,44 @@ class: center, middle
 - Einsätze erstellen
 - Einsätze fahren (Patientenakte, Krankenhaus, Einsatzbericht)
 ---
-# Sport ist Mord
 ## Rettungsdienst
 .center[<img src="img/aufbauRettungsdienst.png" width="70%">]
 
 ---
-# Sport ist Mord
 ## Krankenhaus
 
 ---
 class: center, middle
 # Bad Day
 ---
-# Bad Day
 ## ÖPNV
 ---
 class: middle, center
 # Zentrale Themen
 ---
 ## Kubernetes
+
+- Kubernetes Cluster über Google Kubernetes Engine
+- Jeder Microservice besteht aus einem Pod und einem Service
+- In einem Pod laufen in der Regel 3 Container (Frontend, Backend, Datenbank)
+- 8 verwendete Nodes
+    - Zweimal mussten die Nodes aufgestockt werden
+
+- Zusätzliche Pods:
+    - ms-proxy, ms-rabbitmq, ms-zentralesportal
+
+.center[<img src="img/gcp_console.png" width="80%">]
+
+---
+## Kubernetes - Clusteraufbau
+
+.center[<img src="img/KubeCluster.png" width="95%">]
+
+---
+## Kubernetes - Deployment
+
+.center[<img src="img/kubernetes_deployment.png" width="100%">]
+
 ---
 ## CI/ CD
 ---
@@ -213,12 +262,6 @@ class: middle, center
 # Microservice
 ---
 
-## Supermarkt
-.center[<img src="img/supermarkt_sa.png" width="80%">]
----
-## Supermarkt GRPC
-.center[<img src="img/grpc_in_scala.png">]
----
 ## Krankenhaus
 .center[<img src="img/krankenhaus_sa.png" width="80%">]
 ---
@@ -240,6 +283,7 @@ class: middle, center
 - Socket.io
 - express
 - Node.js
+- TypeScript
 - Sequelize
 - Scala Play
 - Firebase
@@ -255,6 +299,7 @@ class: middle, center
 - MySQL
 - PostgreSQL
 - CouchBase
+- Redis
 
 ---
 # Lessons Learned
