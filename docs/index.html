@@ -85,6 +85,19 @@ class: center, middle
 ---
 ## Bank
 
+### Allgemein
+- Konto erstellen
+- Genereller Umgang mit Geld
+
+### Features
+- Kontenverwaltung(Erstellen und Löschen)
+- Kontenüberblick(Alle Transaktionen)
+- Überweisungen von Konto A nach Konto B
+
+---
+
+## Bank
+.center[<img src="img/Systemarchitektur_bank.png" width="95%">]
 ---
 class: center, middle
 
@@ -118,6 +131,19 @@ class: center, middle
 
 ---
 ## Parkplatz
+### Allgemein
+- Parkplatzreservierung
+- Für Bürger und Services
+
+### Features
+- Reservierungen erstellen und stornieren
+- Buchungs- und Reservierungsübersicht
+- Melden von Problemen für Reservierungen
+
+---
+## Parkplatz
+.center[<img src="img/aufbau_parkplatz.png" width="55%">]
+
 ---
 ## Ordnungsamt
 ---
@@ -125,7 +151,42 @@ class: center, middle
 
 # Tierattacke
 ---
+##  Hausarzt
 
+### Allgemein
+- Verwalten von Patientenakten
+
+### Features
+- Patientenakte erstellen, einsehen, bearbeiten
+- Patientenübersicht für Administratoren
+- Krankheitsübersicht
+
+---
+##  Hausarzt - Softwarearchitektur
+.center[<img src="img/softwarearchitecture_hausarzt.png" width="80%">]
+---
+##  Hausarzt - Update Array in Mongo
+- Array updaten
+- erst nach übergeordnetem Schlüssel suchen, dann nach dem Schlüssel im Array
+- $ ist der gefundene Index, der auf die Suche passt
+
+
+.center[<img src="img/update_mongo.png" width="100%">]
+---
+## Tierarzt
+
+### Allgemein
+- Verwalten von Haustieren und Tierarztterminen
+
+### Features
+- Tierdaten anlegen, bearbeiten, löschen
+- Termin Übersicht
+- Termine anfragen
+- Terminanfragen beantworten
+- Benachrichtigungen abrufen, löschen
+- Tierarztkosten bezahlen
+
+---
 ## Supermarkt
 ### Allgemein
 - Service um Produkte aller Art Online zu kaufen
@@ -146,12 +207,6 @@ class: center, middle
 ---
 ## Supermarkt GRPC
 .center[<img src="img/grpc_in_scala.png">]
----
----
-## Tierarzt
-
----
-##  Hausarzt
 ---
 class: center, middle
 # Sport ist Mord
@@ -209,7 +264,37 @@ class: middle, center
 .center[<img src="img/kubernetes_deployment.png" width="100%">]
 
 ---
-## CI/ CD
+## CI/ CD - Github Actions
+ - neue CI Lösung
+ - in Github integriert
+ - vorgefertigte workflows für z.b. gke
+ - mehrere workflows möglich
+ 
+
+ .center[<img src="img/actions.png" width="100%">]
+
+---
+## CI/ CD - Secrets
+
+.center[<img src="img/secrets.png" width="80%">]
+
+---
+## CI/ CD - Deploy
+- Bei gcloud verifizieren
+- Kustomize ändert/fügt Daten in der deployment.yaml hinzu
+- Kustomize build und apply erstellt die deployment.yaml und wendet es auf das cluster an 
+- Am Ende überprüfen, ob es erfolgreich war
+
+.center[<img src="img/deploy.png" width="100%">]
+
+---
+## CI/ CD - Testing
+- Tests werden als workflow yaml erstellt
+- Im Beispiel node wird erst das backend gebuilded
+- Zum Schluss "npm test" um den Test auszuführen
+
+.left[<img src="img/testing.png">]
+
 ---
 ## Authentifizierung - Übersicht
 
@@ -287,6 +372,7 @@ class: middle, center
 - MongoDB
 - MySQL
 - PostgreSQL
+- CouchBase
 - Redis
 
 ---
