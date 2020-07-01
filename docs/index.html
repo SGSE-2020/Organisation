@@ -142,7 +142,37 @@ class: middle, center
 ---
 ## Kubernetes
 ---
-## CI/ CD
+## CI/ CD - Github Actions
+ - neue CI Lösung
+ - in Github integriert
+ - vorgefertigte workflows für z.b. gke
+ - mehrere workflows möglich
+ 
+
+ .center[<img src="img/actions.png" width="100%">]
+
+---
+## CI/ CD - Secrets
+
+.center[<img src="img/secrets.png" width="80%">]
+
+---
+## CI/ CD - Deploy
+- Bei gcloud verifizieren
+- Kustomize ändert/fügt Daten in der deployment.yaml hinzu
+- Kustomize build und apply erstellt die deployment.yaml und wendet es auf das cluster an 
+- Am Ende überprüfen, ob es erfolgreich war
+
+.center[<img src="img/deploy.png" width="100%">]
+
+---
+## CI/ CD - Testing
+- Tests werden als workflow yaml erstellt
+- Im Beispiel node wird erst das backend gebuilded
+- Zum Schluss "npm test" um den Test auszuführen
+
+.left[<img src="img/testing.png">]
+
 ---
 ## Authentifizierung - Übersicht
 
