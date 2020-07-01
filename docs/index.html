@@ -156,6 +156,28 @@ class: middle, center
 # Zentrale Themen
 ---
 ## Kubernetes
+
+- Kubernetes Cluster über Google Kubernetes Engine
+- Jeder Microservice besteht aus einem Pod und einem Service
+- In einem Pod laufen in der Regel 3 Container (Frontend, Backend, Datenbank)
+- 8 verwendete Nodes
+    - Zweimal mussten die Nodes aufgestockt werden
+
+- Zusätzliche Pods:
+    - ms-proxy, ms-rabbitmq, ms-zentralesportal
+
+.center[<img src="img/gcp_console.png" width="80%">]
+
+---
+## Kubernetes - Clusteraufbau
+
+.center[<img src="img/KubeCluster.png" width="95%">]
+
+---
+## Kubernetes - Deployment
+
+.center[<img src="img/kubernetes_deployment.png" width="100%">]
+
 ---
 ## CI/ CD
 ---
