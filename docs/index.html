@@ -49,7 +49,6 @@ class: center, middle
 3. Romantischer Abend
 4. Tierattacke
 5. Sport ist Mord
-6. Bad Day
 7. Zentrale Themen
 8. Lessons Learned
 
@@ -87,6 +86,31 @@ class: center, middle
 .center[<img src="img/SWArchitecture_Buergerbuero.svg" width="95%">]
 ---
 ## Straßenverkehrsamt
+
+### Allgemein
+- Stellt amtliche Dienstleistungen zur Verfügung
+
+### Features
+- Beantragen, Bestellen und Verwalten von
+
+  - einem Führerschein
+  - Nummernschilder
+  - Umweltplaketten
+  - Kurzzeitkennzeichen
+
+- Mitarbeiter Bereich
+
+  - Anträge bearbeiten
+  - Rechtevergabe
+  - Ankündigungen beim Bürgerbüro veröffendlichen
+
+---
+## Straßenverkehrsamt
+.image[![sketch](./img/SWArchitecture_Strassenverkehrsamt.svg)]
+---
+## Straßenverkehrsamt - Progressive Web App
+
+.center[<iframe width="640" height="500" src="https://www.youtube.com/embed/yE7icTcKNQI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]
 
 ---
 ## Bank
@@ -163,6 +187,18 @@ class: center, middle
 
 ---
 ## Ordnungsamt
+### Allgemein
+- Anträge stellen/verwalten ( z.B. Demonstration,Flohmarkt)
+- Ordnungswidrigkeiten melden/verwalten (auch automatisch)
+- Für Bürger und Mitarbeiter
+	    
+### Kommunikation
+- Bürgerbüro
+- Parkplatz
+
+---
+## Ordnungsamt
+.center[<img src="img/ordnungsamt.png" width="90%">]
 ---
 class: center, middle
 
@@ -226,7 +262,7 @@ class: center, middle
 .center[<img src="img/supermarkt_sa.png" width="80%">]
 ---
 ## Supermarkt GRPC
-.center[<img src="img/grpc_in_scala.png">]
+.center[<img src="img/grpc_in_scala.png" width="80%">]
 ---
 class: center, middle
 # Sport ist Mord
@@ -315,9 +351,20 @@ class: center, middle
 .center[<img src="img/krankenhaus_sa.png" width="70%">]
 
 ---
-
-class: middle, center
 # Zentrale Themen
+## Übersicht
+
+- Kubernetes
+
+- CI/CD
+
+- Software-Architekt
+
+- Authentifizierung
+
+- Messaging
+
+- Proxy
 ---
 ## Kubernetes
 
@@ -375,6 +422,21 @@ class: middle, center
 .left[<img src="img/testing.png">]
 
 ---
+## Software-Architekt
+Malte Riechmann und Sven Simikin
+### Tätigkeiten
+Schaffung von Rahmenbedingungen für Microservices bezüglich:
+- Inter-Microservice-Kommunikation
+- Zu verwendender Technologien
+- Speicherung von Daten
+
+### Vorgehen
+Durch Abstimmungen wurden Entscheidungen getroffen:
+- RabbitMQ als Message-Broker (async. Kommunikation)
+- JSON für die Messagingkommunikation
+- gRPC als neue Technologie (sync. Kommunikation)
+
+---
 ## Authentifizierung - Übersicht
 
 .center[<img src="img/SmartCity_Authentifizierung_Overview.svg" width="80%">]
@@ -427,7 +489,7 @@ class: middle, center
 .image[![sketch](./img/MS-Proxy.svg)]
 
 ---
-
+class: middle, center
 # Lessons Learned
 ---
 
@@ -468,9 +530,10 @@ class: middle, center
 
 ---
 # Lessons Learned
+
 - Github Actions verglichen mit Gitlab CI angenehmer zu nutzen
 
-- sichere CI / CD - Pipelines mit Github Actions erstellen
+- Sichere CI/CD-Pipelines mit Github Actions erstellen
 
 - docker und docker-compose in lokalen Entwicklungsumgebung
 
@@ -480,7 +543,7 @@ class: middle, center
 
 - GO hat interessante Ansätze
 
-- kein einfacher Einstieg in GO
+- Kein einfacher Einstieg in GO
 
 ---
 # Lessons Learned
@@ -494,18 +557,18 @@ class: middle, center
 
 - Umgang mit Vue, Vue CLI und Vuex 
 
-- die Abhängigkeit von Logs ist bewusst geworden
+- Die Abhängigkeit von Logs ist bewusst geworden
 ---
 # Lessons Learned
 - Meetings häufig kürzer, Small-Talk fällt weg
 
-- persönlicher Austausch fehlt
+- Persönlicher Austausch fehlt
 
 - Absprachen im persönlichen Kontakt einfacher, vor allem wenn man sich nicht kennt
 
 - Erfahrungen um Zeitmanagement zu verbessern
 
-- einfacher per Bildschirm-Share Inhalte zu zeigen
+- Einfacher per Bildschirm-Share Inhalte zu zeigen
 
 - Durch Lockdown: persönlicher Ausgleich fehlte, hatte hohen Einfluß auf Arbeitsmotivation
 
