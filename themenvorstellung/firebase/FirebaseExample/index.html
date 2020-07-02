@@ -1,0 +1,29 @@
+<html>
+    <head>		
+        <!-- Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+                
+        <!-- jQuery -->
+        <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+            
+        <!-- Eigenes -->
+        <script src="utils.js"></script>
+        <title>Firebase Client Example</title>
+    </head>
+    <body>
+        <input type="text" placeholder="E-Mail" id="mail_signin"> 
+		<input type="password" placeholder="Passwort" id="password_signin">
+        <button onclick="loginUser()">Sign In</button>
+        <br>
+        
+        <span>
+            <p style="float:left";><b>User:&nbsp;</b></p>
+            <p id="user_loggedin">Keiner eingeloggt</p>
+        </span>
+        <br>
+        
+        <button onclick="logoutUser()">Sign Out</button>
+    </body>
+</html>
